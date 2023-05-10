@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URNA</title>
+    <script src = "exercicio7.js"></script>
+</head>
+<body>
+    <style>
+        h1{
+            color: black
+        }
+        div{
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        input{
+            color: blue;
+            margin-bottom: 10px;
+        }
+    </style>
+    <body>
+        <h1>ESCOLHA SEU CANDIDATO</h1>
+        <form> 
+            <div>Digite 1 para o Candidato 1</div>
+            <div>Digite 2 para o Candidato 2</div> 
+            <div>Digite 3 para o Candidato 3</div>
+            <div>Digite 4 para o Candidato 4</div>
+            <div>Digite 5 para voto Nulo</div>
+            <div>Digite 6 para Votar em Branco</div>
+            <input type="number" name="voto" id="voto">
+            <div><input type="button" value="Confirmar" onclick="votar()"></div> 
+            <div id="msg">Vote Consciente</div>          
+        </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar</title>
+    <script src = "exercicio14.js"></script>
+</head>
+<body>
+    <style>
+        h1{
+            color: black
+        }
+        div{
+            margin-top: 5px;
+        }
+        input{
+            color: blue;
+            margin-bottom: 15px;
+        }
+    </style>
+    <body>
+        <h1>Calcule o valor a pagar com juros</h1>
+        <form>
+            <div>Insira o valor da compra: <input type="number" id="n1"placeholder="R$"></div>
+            <div>Insira a taxa de juros: <input type="number" id="n2"  placeholder="Juros por dia"></div>  
+            <div>Insira quantos dias estão em atraso: <input type="number" id="n3" placeholder="Dias"></div>         
+            <div><input type="button" value="Calcular" onclick="pagar()"></div>            
+        </form>
+</body>
+</html>
